@@ -36,7 +36,6 @@ const toggleTheme = (theme: string) => {
   <div
     class="bg-gradient-to-tl flex min-h-screen text-white items-center justify-center"
     :class="{
-      'bg-black': getOptions.background === false,
       [background]: getOptions.background === true,
 
       'px-4': getOptions.mode !== 'iframe',
